@@ -21,7 +21,7 @@ This repository includes the following relevant project components:
 
 * `githubactions folder`
     * `matrix_cicd_yml`
-        This file configures the GitHub Actions workflow. It uses the setup-python action and a matrix to test different Python versions (3.8, 3.9,, 3.10 and 3.11)
+        This file configures the GitHub Actions workflow. It uses the setup-python action and a matrix to test different Python versions 3.8, 3.9, 3.10 and 3.11.
 
 * `Dockerfile`
 
