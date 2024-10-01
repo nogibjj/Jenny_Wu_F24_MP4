@@ -5,7 +5,7 @@
 F24 Mini Project 4
 
 ### Purpose of Project
-This project is part of the IDS 702: Data Engineering course and demonstrates how to ensure Python code compatibility across different environments using GitHub Actions. By configuring a matrix strategy, the workflow tests Python versions 3.7, 3.8, 3.9, and 3.11, ensuring consistent performance and stability across these versions.
+This project is part of the IDS 702: Data Engineering course and demonstrates how to ensure Python code compatibility across different environments using GitHub Actions. By configuring a matrix strategy, the workflow tests Python versions 3.8, 3.9, 3.10, and 3.11, ensuring consistent performance and stability across these versions.
 
 ### Relevant Files
 
