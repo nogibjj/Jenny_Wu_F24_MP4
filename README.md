@@ -5,12 +5,37 @@
 F24 Mini Project 4
 
 ### Purpose of Project
-The purpose of this project is to set up a Gitlab Actions workflow where we test at least three different Python versions. 
+This project is part of the IDS 702: Data Engineering course and demonstrates how to ensure Python code compatibility across different environments using GitHub Actions. By configuring a matrix strategy, the workflow tests Python versions 3.7, 3.8, 3.9, and 3.11, ensuring consistent performance and stability across these versions.
+
+### Relevant Files
+
+This repository includes the following relevant project components:
+
+* `.devcontainer folder`
+
+* `Makefile`
+
+* `requirements.txt`
+
+* `README.md` 
+
+* `githubactions folder`
+    * `matrix_cicd_yml`
+        This file configures the GitHub Actions workflow. It uses the setup-python action and a matrix to test different Python versions (3.8, 3.9,, 3.10 and 3.11)
+
+* `Dockerfile`
+
+* `main.py` 
+
+* `test_main.py`
+        When changes are pushed to the repository, tests in `test_main.py` automatically validate the functionality of `main.py` across Python 3.8, 3.9, 3.10, and 3.11.
+
 
 ### Requirements
 - Correctly configured Gitlab Actions Matrix
 - README 
 - CI/CD
+
 
 ### Dataset Description
 The dataset used for this project is the data behind FiveThirtyEight's [Congress Today Is Older Than It’s Ever Been](https://fivethirtyeight.com/features/aging-congress-boomers/), by Geoffrey Skelley (April 3, 2023).
